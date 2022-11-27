@@ -14,3 +14,9 @@ List Feature:
 2. Filter News by category
 3. Detail News that move to webviewActivity
 4. List Category (Hardcode)
+
+![alt text](https://i.postimg.cc/mcDwm6tK/Whats-App-Image-2022-11-27-at-18-09-25.jpg[/img][/url])
+![alt text](https://i.postimg.cc/K1Qfryvn/Whats-App-Image-2022-11-27-at-18-09-24-1.jpg[/img][/url]) 
+
+
+
