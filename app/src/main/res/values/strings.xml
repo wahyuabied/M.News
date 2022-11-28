@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">M. News</string>
     <string name="filter_business">business</string>
-    <string name="filter_economy">economy</string>
-    <string name="filter_politic">Politics</string>
+    <string name="filter_sport">sport</string>
+    <string name="filter_politic">politics</string>
     <string name="filter_none">None</string>
 </resources>

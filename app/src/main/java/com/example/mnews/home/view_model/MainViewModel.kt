@@ -1,5 +1,6 @@
 package com.example.mnews.home.view_model
 
+import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.mnews.model.Article
@@ -135,9 +136,7 @@ class MainViewModel @Inject constructor(
             page--
         }
         val items: MutableList<ArticleItemViewModelType> = mutableListOf()
-        items.add(ArticleEmptyErrorItemViewModel(
-            desc = message
-        ))
+        items.add(ArticleEmptyErrorItemViewModel(desc = message))
         shouldShowData.postValue(items)
     }
 
