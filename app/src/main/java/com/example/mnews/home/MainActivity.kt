@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import android.util.Log
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.core.widget.doAfterTextChanged
@@ -119,6 +120,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun createEmptyError(itemViewModel: ArticleEmptyErrorItemViewModel): ArticleEmptyErrorListItem {
+        Log.e("Abid","MASUK")
         return ArticleEmptyErrorListItem(itemViewModel, object : ArticleEmptyErrorListItem.Listener {
             override fun onClickReload() {
                 viewModel.onViewLoaded()

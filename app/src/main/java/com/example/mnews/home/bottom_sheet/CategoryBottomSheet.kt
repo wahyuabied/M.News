@@ -58,7 +58,7 @@ data class Entity(
             return listOf(
                 Entity(isChecked = filter.equals("None",ignoreCase = true), name = R.string.filter_none, id = 0),
                 Entity(isChecked = filter.equals("Business",ignoreCase = true), name = R.string.filter_business, id = 1),
-                Entity(isChecked = filter.equals("Economic",ignoreCase = true), name = R.string.filter_economy, id = 2),
+                Entity(isChecked = filter.equals("Sport",ignoreCase = true), name = R.string.filter_sport, id = 2),
                 Entity(isChecked = filter.equals("Politics",ignoreCase = true), name = R.string.filter_politic, id = 3)
             )
         }
